@@ -1,0 +1,26 @@
+
+body{
+    width: 85%;
+    border: 2px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #15171e;
+    color: #fff;
+    padding: 10px;
+}
+header{
+    text-align: center;
+    width: 100%;
+}
+nav{
+    display: inherit;
+}
+
+
+
+
+footer{
+    margin-top: 10px;
+    padding: 50px 10px 10px 10px;
+    background-color: #22242c;
+}
