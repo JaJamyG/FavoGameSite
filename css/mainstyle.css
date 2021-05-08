@@ -10,6 +10,7 @@ body{
     padding: 10px;
     width: 85%;
     color: rgb(185, 185, 185);
+    overflow-x: hidden;
 }
 nav, section, footer{
     margin: 10px;
@@ -68,23 +69,38 @@ header img{
 .menuToggle input:checked ~ .text{
     font-size: 0px;
 }
-.desktop{
+nav .desktop{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     align-content: center;
 }
-nav div a{
-    background-color: rgba(114, 109, 102, 0.233);
-    margin: 10px 10px 0px 10px;
-    border-radius: 3px;
-    padding: 10px;
+.outer{
+    margin: 0px 0px 20px 0px;
+}
+nav .desktop .hover, nav a{
     color: rgb(185, 185, 185);
 }
-nav div a:hover, .currentPage{
+nav .desktop .hover{
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+    
+    background: linear-gradient(to right, 
+    rgb(150, 150, 150) 50%, rgba(114, 109, 102, 0.281) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position .5s ease-out;
+}
+.currentPage{
     background-color: rgb(150, 150, 150);
-    color: rgb(114, 109, 102);
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+nav .desktop .hover:hover{
+    background-position: left bottom;
 }
 section{
     padding: 35px 10px 35px 10px;
@@ -103,6 +119,7 @@ footer{
     padding: 20px;
     border-radius: 10%;
     width: 275px;
+    margin: 5px;
 }
 .fotoContainer figure img{
     max-height: 200px;
