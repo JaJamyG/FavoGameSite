@@ -92,3 +92,18 @@ section{
 footer{
     padding: 50px 10px 50px 10px;
 }
+.fotoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.fotoContainer figure{
+    text-align: center;
+    background-color: #22242c91;
+    padding: 20px;
+    border-radius: 10%;
+    width: 275px;
+}
+.fotoContainer figure img{
+    max-height: 200px;
+}
