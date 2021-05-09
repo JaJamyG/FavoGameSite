@@ -78,3 +78,6 @@ footer{
 .fotoContainer figure img{
     max-height: 200px;
 }
+h2{
+    display: inline;
+}
