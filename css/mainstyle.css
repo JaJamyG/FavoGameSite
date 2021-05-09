@@ -1,4 +1,3 @@
-
 body{
     background: url(../images/background_worldofwarcraft_shadowlands.jpg);
     background-size: cover;
@@ -10,7 +9,7 @@ body{
     padding: 10px;
     width: 85%;
     color: rgb(185, 185, 185);
-    overflow-x: hidden;
+    
 }
 nav, section, footer{
     margin: 10px;
@@ -23,51 +22,6 @@ header{
 }
 header img{
     width: 100%;
-}
-.menuToggle{
-    position: relative;
-}
-.menuToggle input{
-    display: block;
-    width: 40px;
-    height: 40px;
-    position:absolute;
-    top: -15px;
-    left: -2px;
-    opacity: 0;
-    z-index: 2;
-}
-.menuToggle span{
-    display: inline-block;
-    width: 20px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    background: #cdcdcd;
-    border-radius: 3px;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background-color 1s;
-}
-.menuToggle .spanLeft{
-    transform: rotate(45deg) translate(5px, -4px);
-}
-.menuToggle .spanRight{
-    transform: rotate(-45deg) translate(-5px, -4px);
-}
-.menuToggle input:hover ~ span{
-    background: #FF9800;
-}
-.menuToggle input:checked ~ .spanLeft{
-    transform: rotate(-45deg) translate(5px, 4px);
-}
-.menuToggle input:checked ~ .spanRight{
-    transform: rotate(45deg) translate(-5px, 4px);
-}
-.menuToggle .text{
-    transition: font-size 0.5s cubic-bezier(0.77,0.2,0.05,1.0)
-}
-.menuToggle input:checked ~ .text{
-    font-size: 0px;
 }
 nav .desktop{
     display: flex;
