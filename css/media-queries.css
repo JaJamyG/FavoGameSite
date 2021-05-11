@@ -8,8 +8,14 @@
         font-size: 20px;
         width: 95%;
     }
-    
-.fotoContainer figure{
-    padding: 20px;
-}
+    .fotoContainer figure{
+        padding: 20px;
+    }
+    .flipCard{
+        width: 250px;
+        height: 250px;
+    }
+    figure img{
+        width: 250px;
+    }
 }

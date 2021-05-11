@@ -62,24 +62,6 @@ section{
 footer{
     padding: 20px 10px 20px 10px;
 }
-.fotoContainer{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-}
-.fotoContainer figure{
-    text-align: center;
-    background-color: #22242c91;
-    padding: 50px;
-    border-radius: 10%;
-    width: 275px;
-    margin: 5px;
-}
-.fotoContainer figure img{
-    max-height: 200px;
-    width: auto;
-}
 h2{
     display: inline;
 }
