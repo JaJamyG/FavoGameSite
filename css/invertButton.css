@@ -43,3 +43,6 @@
 .menuToggle input:checked ~ .text{
     font-size: 0px;
 }
+.menuToggle input:checked ~ .text .fotoContainer figure{
+    display: none;
+}
