@@ -22,6 +22,7 @@ header{
 }
 header img{
     width: 100%;
+    border-radius: 10px;
 }
 nav .desktop{
     display: flex;
@@ -49,6 +50,8 @@ nav .desktop .hover{
 }
 .currentPage{
     background-color: rgb(150, 150, 150);
+    color: rgb(23, 23, 31);
+    text-decoration: inherit;
     border-radius: 3px;
     padding: 10px;
     display: block;
