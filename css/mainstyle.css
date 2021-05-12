@@ -58,6 +58,8 @@ nav .desktop .hover{
 }
 nav .desktop .hover:hover{
     background-position: left bottom;
+    color: rgb(23, 23, 31);
+    text-decoration: inherit;
 }
 section{
     padding: 35px 10px 35px 10px;
@@ -67,8 +69,4 @@ footer{
 }
 h2{
     display: inline;
-}
-iframe{
-    max-width: 780px;
-    height: auto;
 }
