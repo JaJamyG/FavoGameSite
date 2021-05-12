@@ -42,9 +42,18 @@
 }
 
 .flipCardBack {
+    position: relative;
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
+}
+.flipCardBackImage{
+    position: absolute;
+}
+.flipCardBackText{
+    position: absolute;
+    padding: 5px 25px;
+    
 }
 figure img{
     width: 300px;
